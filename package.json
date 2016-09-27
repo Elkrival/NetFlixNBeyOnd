@@ -1,0 +1,30 @@
+{
+  "name": "dummy",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "react-scripts": "0.6.1"
+  },
+  "engines": {
+   "node": "6.6.0",
+   "npm": "3.10.3"
+ },
+ "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}
